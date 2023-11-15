@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.17511088, g: 0.21907213, b: 0.3013723, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3455,12 +3455,48 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2687725751698728711, guid: ab198940999626c498312d594a5552ca, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2687725751698728711, guid: ab198940999626c498312d594a5552ca, type: 3}
       propertyPath: InitialModule.startSize.scalar
       value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 2687725751698728711, guid: ab198940999626c498312d594a5552ca, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
       value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 2687725751698728711, guid: ab198940999626c498312d594a5552ca, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.9716981
+      objectReference: {fileID: 0}
+    - target: {fileID: 2687725751698728711, guid: ab198940999626c498312d594a5552ca, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.9641429
+      objectReference: {fileID: 0}
+    - target: {fileID: 2687725751698728711, guid: ab198940999626c498312d594a5552ca, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.8204432
+      objectReference: {fileID: 0}
+    - target: {fileID: 2687725751698820605, guid: ab198940999626c498312d594a5552ca, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2687725751698820605, guid: ab198940999626c498312d594a5552ca, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2687725751698820605, guid: ab198940999626c498312d594a5552ca, type: 3}
+      propertyPath: InitialModule.startSize.minMaxState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2687725751698820605, guid: ab198940999626c498312d594a5552ca, type: 3}
+      propertyPath: InitialModule.startSizeY.minMaxState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2687725751698820605, guid: ab198940999626c498312d594a5552ca, type: 3}
+      propertyPath: InitialModule.startSizeZ.minMaxState
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab198940999626c498312d594a5552ca, type: 3}
